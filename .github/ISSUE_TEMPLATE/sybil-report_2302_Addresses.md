@@ -83,9 +83,9 @@ On-Chain Data Analysis using Dune Analytics.
 1) Select wallets with >25 transactions, >2 days, >2 months, >5000$ volume, last day < '2024-05-01' by query on Dune.
 2) Group by first/last days, months/weeks/days, chain/destChain/contracts/ and filtered more than 20 sybils in identical clasters group.
 3) Checked address in initialLixt.txt.
-   1057 adresses i found in YOUR sybils list.
-**4) My final lists 1246 adresses in file FinalSybilLList.txt
-**
+***1057 adresses i found in YOUR sybils list.***   
+**4) My final lists 1246 adresses in file FinalSybilLList.txt**
+
 1. Consistent Transaction Patterns
 Same Quantity of Transactions
 
