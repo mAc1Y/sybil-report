@@ -8,6 +8,7 @@ assignees: LayerZero-GH
 ---
 
 # Reported Addresses
+[Uploadinghttps://github.com/mAc1Y/L0_Sybils/blob/mAc1Y-sybils-1/.github/ISSUE_TEMPLATE/Sybils_1.txt]
 
 # Description
 
