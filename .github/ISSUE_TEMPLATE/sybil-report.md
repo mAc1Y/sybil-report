@@ -22,24 +22,6 @@ Wallets used only for LayerZero protocol.
 On-Chain Data Analysis using Dune Analytics.
 
 Criteria >25 transactions, >2 days, >2 months, >5000$ volume, last day < '2024-05-01'
-Part of query:
-
-WHERE
-    tc > 25
-    AND last_day < TRY_CAST('2024-05-01' AS DATE)
-    AND days > 2
-    AND months > 2
-    AND amt > 5000
-  GROUP BY
-    tc,
-    first_day,
-    last_day,
-    act_chain,
-    act_dest_chain,
-    act_contract,
-    days,
-    weeks,
-    months
 
 And checked address in initialLixt.txt
 
