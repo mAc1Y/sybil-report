@@ -67,7 +67,7 @@ assignees: LayerZero-GH
 0xdabc53713d9c042fa56ded8b6329edb1fcf17a7b, 0x2288de828d3697614d132d99dfd1c72a0bfe85b5, 0xe4ed90462efa133a3ed9f5e8d85bb23b188f3c58, 0x1504f7159d90a12acfe52a62cf1ed9d08b8a4735, 0xe5ba44e5c0674a48becea4bc2e0e0f20254c72a8, 0x467cf2b7744f57d9c45e45d64d12ecb5dab7ae8b, 0x6ff1ee8d59d230033fe063d1582154a95084ecec, 0x481b244c5a743aa8da7666a27e15de7209f64586, 0xcf674728ad09491c51c4061edf06f98c08252c4c, 0x60af926e78fdde59c52390cc1da8b091801dfd6c, 0x6766cfbec7dcada73d552d12a785deccaf156031, 0xa80027a68f60cfeee88c3aa9832c5bc8983cc158, 0xfbfbc60831a7ab87708f0ff0b01b74be8172f11b, 0xc5221ddb71e44d6c16d49e378e1e23b24666330d, 0xe8667994f4327e2835e8ff41a152610f638fcb2d, 0xa9145289ec515c5e74cc4d26485cd3dae905eebe, 0x4bfd511606618b3c2ac4977bb3d94077ae5b8754, 0x83f2378179f5a82b4e939bf7dbcdfb22bb143d54, 0xebe82dcec3791459d0b2cc65298490ce36c4b170, 0xc99848df0370c57b0602ab2899c7df4ce979ba06, 0xae6e37f63cb23fe370df750d83af7e158f88b560
 
 # Description
-There are 2302 wallets in 57 clasters group with identical criteria, with same qty of transactions, same first and last days, same months/weeks/days, same chains/destChains/contracts. EVM balance less than 5$. Wallets used only for LayerZero protocol. 
+There are 2302 wallets in 57 clasters group with identical criteria, with same qty of transactions, same first and last days, same months/weeks/days, same chains/destChains/contracts.
 
 ![image](https://github.com/mAc1Y/ForL0/blob/main/2024-05-18%20%D0%BE%2005.22.58.png)
 ![image](https://github.com/mAc1Y/ForL0/blob/main/2024-05-18%20%D0%BE%2005.23.25.png)
@@ -94,11 +94,6 @@ Consistent Transaction Volumes
 Evidence: These addresses exhibit transaction volumes significantly exceeding $5000, with very similar volumes clustering. For instance, addresses D, E, and F have total transaction volumes of $29,500, $29,800, and $30,000 respectively.
 Rationale: Genuine users typically show more variation in their transaction volumes. The close range of volumes indicates an orchestrated effort to simulate legitimate activity while staying within certain thresholds.
 
-For examples clasters with 79 wallets have very similar volume:
-![image](https://github.com/mAc1Y/ForL0/blob/main/Volume%202024-05-18%20%D0%BE%2005.42.05.png)
-
-
-
 2. Transaction Timing and Activity Duration
 Extended Activity Duration
 
@@ -121,12 +116,10 @@ Interaction with the Same Contracts
 Evidence: The addresses engage with the same set of smart contracts. For example, addresses P, Q, and R frequently interact with a specific staking contract and a DeFi application.
 Rationale: Coordinated interaction with the same contracts indicates an attempt to exploit specific functionalities, such as farming rewards or influencing governance. Genuine users are likely to interact with a broader and more diverse set of contracts.
 
-4. Financial Characteristics
-EVM Balances Less Than $5
 
-Evidence: All identified addresses maintain balances of less than $5 in their EVM wallets.
-Rationale: Keeping low balances is a strategy often used by sybil entities to minimize financial risk if their addresses are identified and blacklisted. Genuine users typically have more varied and often higher balances.
-Conclusion
+For examples clasters with 127 and 79 wallets:
+![image(]https://github.com/mAc1Y/ForL0/blob/main/127%202024-05-18%20%D0%BE%2005.58.12.png)
+![image](https://github.com/mAc1Y/ForL0/blob/main/Volume%202024-05-18%20%D0%BE%2005.42.05.png)
 
 
 # Reward Address (If Eligible)
