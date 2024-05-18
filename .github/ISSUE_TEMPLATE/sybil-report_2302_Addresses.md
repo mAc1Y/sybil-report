@@ -84,8 +84,8 @@ On-Chain Data Analysis using Dune Analytics.
 2) Group by first/last days, months/weeks/days, chain/destChain/contracts/ and filtered more than 20 sybils in identical clasters group.
 3) Checked address in initialLixt.txt.
    1057 adresses i found in YOUR sybils list.
-4) My final lists 1246 adresses.
-
+**4) My final lists 1246 adresses in file FinalSybilLList.txt
+**
 1. Consistent Transaction Patterns
 Same Quantity of Transactions
 
