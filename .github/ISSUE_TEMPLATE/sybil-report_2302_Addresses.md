@@ -85,7 +85,7 @@ On-Chain Data Analysis using Dune Analytics.
 1. Consistent Transaction Patterns
 Same Quantity of Transactions
 
-Evidence: The identified addresses each have a transaction count above 25. For example, addresses A, B, and C have 25-100+ transactions respectively.
+Evidence: The identified addresses each have a transaction count above 25. For example, addresses A, B, and C have 25-30 transactions respectively.
 
 Rationale: While having more than 25 transactions can be typical for active users, the uniformity in transaction counts across multiple addresses within a narrow range suggests coordinated sybil behavior rather than independent activity.
 
