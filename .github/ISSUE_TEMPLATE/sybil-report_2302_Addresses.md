@@ -117,10 +117,12 @@ Evidence: The addresses engage with the same set of smart contracts. For example
 Rationale: Coordinated interaction with the same contracts indicates an attempt to exploit specific functionalities, such as farming rewards or influencing governance. Genuine users are likely to interact with a broader and more diverse set of contracts.
 
 
-For examples clasters with 127 and 79 wallets:
-![image(]https://github.com/mAc1Y/ForL0/blob/main/127%202024-05-18%20%D0%BE%2005.58.12.png)
+For examples clasters with 127, 115 and 79 wallets:
+![image](https://github.com/mAc1Y/ForL0/blob/main/127%202024-05-18%20%D0%BE%2005.58.12.png)
+![image](https://github.com/mAc1Y/ForL0/blob/main/115%202024-05-18%20%D0%BE%2006.07.31.png)
 ![image](https://github.com/mAc1Y/ForL0/blob/main/Volume%202024-05-18%20%D0%BE%2005.42.05.png)
 
+More detail in file sybils180524.xlsx
 
 # Reward Address (If Eligible)
 
