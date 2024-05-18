@@ -73,6 +73,8 @@ There are 2302 wallets in 57 clasters group with identical criteria, with same q
 ![image](https://github.com/mAc1Y/ForL0/blob/main/2024-05-18%20%D0%BE%2005.23.25.png)
 ![image](https://github.com/mAc1Y/ForL0/blob/main/024-05-18%20%D0%BE%2005.23.38.png)
 
+More details find in Sybils180524.xlsx
+
 
 # Detailed Methodology & Walkthrough
 
@@ -121,8 +123,6 @@ For examples clasters with 127, 115 and 79 wallets:
 ![image](https://github.com/mAc1Y/ForL0/blob/main/127%202024-05-18%20%D0%BE%2005.58.12.png)
 ![image](https://github.com/mAc1Y/ForL0/blob/main/115%202024-05-18%20%D0%BE%2006.07.31.png)
 ![image](https://github.com/mAc1Y/ForL0/blob/main/Volume%202024-05-18%20%D0%BE%2005.42.05.png)
-
-More detail in file sybils180524.xlsx
 
 # Reward Address (If Eligible)
 
