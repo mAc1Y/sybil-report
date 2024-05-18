@@ -1,5 +1,5 @@
 ---
-name: Sybil Report_708
+name: Sybil Report
 about: Report Sybil Activity on LayerZero
 title: "[Sybil Report]"
 labels: under review
@@ -13,7 +13,7 @@ assignees: LayerZero-GH
 # Description
 There 10 similar group with identical adrresses, with 128-131 trznsactions, same first and last days, same months/weeks/days, same chains/destChains/contracts. 
 
-![image]([https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2002.58.57.png](https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2004.46.37.png))
+![image](https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2004.46.37.png)
 
 
 # Detailed Methodology & Walkthrough
