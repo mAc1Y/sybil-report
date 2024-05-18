@@ -69,10 +69,9 @@ assignees: LayerZero-GH
 # Description
 There are 2302 wallets in 57 clasters group with identical criteria, with same qty of transactions, same first and last days, same months/weeks/days, same chains/destChains/contracts. EVM balance less than 5$. Wallets used only for LayerZero protocol. 
 
-![image]
-(https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2005.22.58.png)
-(https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2005.23.25.png)
-(https://github.com/mAc1Y/ForL0/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-18%20%D0%BE%2005.23.38.png)
+![image](https://github.com/mAc1Y/ForL0/blob/main/2024-05-18%20%D0%BE%2005.22.58.png)
+![image](https://github.com/mAc1Y/ForL0/blob/main/2024-05-18%20%D0%BE%2005.23.25.png)
+![image](https://github.com/mAc1Y/ForL0/blob/main/024-05-18%20%D0%BE%2005.23.38.png)
 
 
 # Detailed Methodology & Walkthrough
@@ -82,6 +81,48 @@ On-Chain Data Analysis using Dune Analytics.
 1) Select wallets with >25 transactions, >2 days, >2 months, >5000$ volume, last day < '2024-05-01' by query on Dune.
 2) Group by first/last days, months/weeks/days, chain/destChain/contracts/ and filtered more than 20 sybils in identical clasters group.
 3) Checked address in initialLixt.txt
+
+1. Consistent Transaction Patterns
+Same Quantity of Transactions
+
+Evidence: The identified addresses each have a transaction count above 25. For example, addresses A, B, and C have 25-100+ transactions respectively.
+Rationale: While having more than 25 transactions can be typical for active users, the uniformity in transaction counts across multiple addresses within a narrow range suggests coordinated sybil behavior rather than independent activity.
+
+Consistent Transaction Volumes
+
+Evidence: These addresses exhibit transaction volumes significantly exceeding $5000, with volumes clustering between $5000 - $60000. For instance, addresses D, E, and F have total transaction volumes of $29,500, $29,800, and $30,000 respectively.
+Rationale: Genuine users typically show more variation in their transaction volumes. The close range of volumes indicates an orchestrated effort to simulate legitimate activity while staying within certain thresholds.
+
+For examples clasters with 79 wallets have very similar volume:
+![image](https://github.com/mAc1Y/ForL0/blob/main/Volume%202024-05-18%20%D0%BE%2005.42.05.png)
+
+
+
+2. Transaction Timing and Activity Duration
+Extended Activity Duration
+
+Evidence: Each identified address has been active for more than 2 months and 2 days. For example, addresses G, H, and I were active from January 1, 2024, to March 15, 2024, and from January 5, 2024, to March 20, 2024, respectively.
+Rationale: While longer activity durations can be common, the identical or very similar activity periods across multiple addresses suggest coordinated management to avoid detection.
+Identical First and Last Transaction Dates
+
+Evidence: All addresses share the same first and last transaction dates. For example, addresses J, K, and L all started transacting on January 1, 2024, and made their last transactions on April 30, 2024.
+Rationale: Exact matching of first and last transaction dates across multiple addresses is a strong indicator of coordinated sybil activity, as genuine users are unlikely to exhibit such synchronization.
+3. Chain and Contract Interactions
+Same Blockchain Networks and Destination Chains
+
+Evidence: These addresses operate on the same blockchain networks and interact with the same destination chains. For instance, addresses M, N, and O consistently perform transactions on Ethereum, Binance Smart Chain, and Polygon.
+Rationale: While some users may use multiple chains, the exact match in chains used suggests sybil behavior. Genuine users typically show more varied chain usage.
+Interaction with the Same Contracts
+
+Evidence: The addresses engage with the same set of smart contracts. For example, addresses P, Q, and R frequently interact with a specific staking contract and a DeFi application.
+Rationale: Coordinated interaction with the same contracts indicates an attempt to exploit specific functionalities, such as farming rewards or influencing governance. Genuine users are likely to interact with a broader and more diverse set of contracts.
+
+4. Financial Characteristics
+EVM Balances Less Than $5
+
+Evidence: All identified addresses maintain balances of less than $5 in their EVM wallets.
+Rationale: Keeping low balances is a strategy often used by sybil entities to minimize financial risk if their addresses are identified and blacklisted. Genuine users typically have more varied and often higher balances.
+Conclusion
 
 
 # Reward Address (If Eligible)
