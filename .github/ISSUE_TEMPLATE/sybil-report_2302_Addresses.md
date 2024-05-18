@@ -126,4 +126,4 @@ For examples clasters with 127, 115 and 79 wallets:
 
 # Reward Address (If Eligible)
 
-0x96DAe09e3BD2CbbF09e99E729B91c9138F320bF0
+0xb02D525D4c902Aed092cdD9C21c503fC087EBFA2
